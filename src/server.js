@@ -11,7 +11,7 @@ const usersRouter = require("./routes/users.router");
 const serverConfig = config.get("server");
 const productsRouter = require("./routes/products.router");
 const cartRouter = require("./routes/cart.router");
-const adminCategoriesRouter = require("./routes/admin-categories.router");
+const adminCategoriesRouter = require("./routes/admin-categories");
 const adminProductsRouter = require("./routes/admin-products.router");
 
 const port = serverConfig.port;
